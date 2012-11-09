@@ -41,7 +41,7 @@
  * 
  **/
 
-;(function(){
+;(function( $ ){
 	
 	var PREDICTIVE = 'predictive-',
 		ENDPOINT = PREDICTIVE + 'endpoint',
@@ -124,4 +124,4 @@
 			
 		 });
 
-})();
+})( jQuery );
